@@ -123,9 +123,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
+@media (min-width: 992px) {
 #header.header-scrolled .navbar a, .navbar a:focus {
   color: #fff;
   font-weight: 600;
+}
 }
 #header.header-scrolled .navbar a.getstarted, .navbar a.getstarted:focus {
 
@@ -222,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
