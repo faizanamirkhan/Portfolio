@@ -349,6 +349,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero .animated {
+  filter: drop-shadow(2px 4px 6px black);
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @media (min-width: 1024px) {
@@ -361,6 +362,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
   }
   #hero .animated {
+ 
     -webkit-animation: none;
     animation: none;
   }
