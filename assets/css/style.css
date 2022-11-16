@@ -1,8 +1,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background: linear-gradient(90deg, rgba(191,223,233,0) 43%, rgba(24,119,223,1) 100%);
+  color: #000000;
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
 }
 
 
@@ -13,7 +13,7 @@ body {
   left: 0;
   width: 100%;
   height: 90%;
-  opacity: .6;
+  opacity: 1;
   background: url(../img/earth.png) no-repeat;
   background-size: cover;
   animation: breathing 10s infinite;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 12px 0;
-  /* background: rgba(44, 56, 70, 0.767); */
+  background-image: linear-gradient(to top, #acddda00 0%, #767373 100%);
 }
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header.header-scrolled .navbar a.getstarted, .navbar a.getstarted:focus {
 
-  color: #fff;
+  color: #333;
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3498db;
+  color: #176da7;
 }
 #header.header-scrolled .navbar a:hover,#header.header-scrolled .navbar .active,#header.header-scrolled .navbar .active:focus,#header.header-scrolled .navbar li:hover > a {
   color: #3498db;
@@ -159,12 +159,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   padding: 8px 25px;
   margin-left: 30px;
-  border-radius: 50px;
+  border-radius: 3px;
   box-shadow: inset 0px 0px 7px 1px #333;
-  color: #333!important;
+  color: #333;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #fff;
+  color: #fff!important;
   background: #4aa3df;
 }
 .navbar .dropdown ul {
@@ -338,10 +338,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 50px;
+  border-radius: 3px;
+  background: #2c3846;
   transition: 0.5s;
-  color: #333;
-  box-shadow: inset 0px 0px 7px 1px #333;
+  color: #fff;
+  box-shadow: 0px 0px 3px 1px #898383;
 }
 #hero .btn-get-started:hover {
   background: #3498db;
@@ -466,7 +467,7 @@ section {
 }
 
 .clients img {
-  width: 50%;
+  width: 30%;
   filter: drop-shadow(2px 4px 6px black);
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -478,7 +479,7 @@ section {
 }
 @media (max-width: 768px) {
   .clients img {
-    width: 40%;
+    width: 30%;
   }
 }
 @media (max-width: 575px) {
@@ -1106,7 +1107,7 @@ section {
   font-size: 42px;
   color: #3498db;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1192,7 +1193,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 32px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .faq .faq-item p {
   font-size: 15px;
@@ -1208,13 +1209,13 @@ section {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #222222;
+  color: #050505;
 }
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
-  color: #888;
+  font-family: "Open Sans", sans-serif;
+  color: #050505;
 }
 .contact .social-links {
   padding-bottom: 20px;
@@ -1239,7 +1240,7 @@ section {
   color: #fff;
 }
 .contact .info {
-  color: #444444;
+  color: #050505;
 }
 .contact .info i {
   font-size: 32px;
