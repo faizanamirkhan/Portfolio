@@ -1408,3 +1408,25 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+.navbar-mobile{
+-webkit-animation: mobile-loading 0.6s ;
+animation: mobile-loading 0.6s ;
+
+}
+
+@-webkit-keyframes mobile-loading {
+  0% {
+    transform:translate(300px);
+  }
+  100% {
+    transform:translate(0px);
+  }
+}
+@keyframes mobile-loading {
+  0% {
+    transform:translate(300px);
+  }
+  100% {
+    transform:translate(0px);
+  }
+}
