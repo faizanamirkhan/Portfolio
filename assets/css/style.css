@@ -757,6 +757,9 @@ section {
   line-height: 1;
   font-size: 16px;
 }
+#loom-companion-mv3{
+  display: none;
+}
 .features .icon-box h3 a {
   cursor: pointer;
   color: #222222;
